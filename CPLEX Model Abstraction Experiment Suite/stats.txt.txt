@@ -1,0 +1,21 @@
+Writing generated/central.csv
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Runtime central 3053.113522032
++ Runtime central per time step 96.30687022400001
++ Violation total central avg per timestep
+++ min 15887.955871139206
+++ max 75342.87990366537
+++ avg 38312.82415274577
++ Runtime regio central 1363.2412928160002
++ Runtime regio central per time step 542.4838424960001
++ Violation total regio central avg per timestep
+++ min 17793.155871139214
+++ max 75342.87990366538
+++ avg 38805.04415274576
++ Abstraction error
+++ min 0.0
+++ max 414.19999999969514
+++ avg 12.098181818234458
++ Longest serial path : 281.547026112
++ Time spent in abstraction: 667.278142656
++++++++++++++++++++++++++++++++++++++++++++++++++++++++

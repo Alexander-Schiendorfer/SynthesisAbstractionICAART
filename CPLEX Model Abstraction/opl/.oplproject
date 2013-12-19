@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<description>Sample for different model types</description>
+	<configs>
+		<config default="true" name="AAM" category="opl">
+			<ref type="model" name="aam.mod">
+			</ref>
+			<ref type="data" name="aam.dat">
+			</ref>
+		</config>
+		<config default="false" name="SRM" category="opl">
+			<ref type="model" name="srm.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

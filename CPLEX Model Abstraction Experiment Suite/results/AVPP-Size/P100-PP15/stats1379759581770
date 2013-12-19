@@ -1,0 +1,86 @@
+-----------------------
+Minimal residual load: 99749.34746571697
+Maximal residual load: 213439.72727272726
+Maximal production: 234783.7
+Number of plants: 100
+AVPP graph depth: 1
+-----------------------
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Runtime central 2416.500703104
++ Runtime central per time step 
+++ min 2.936090752
+++ max 1801.01567632
+++ avg 56.197200293581425
+++ sum 2416.479612624001
+++ n 43
++ Violation total central avg per timestep
+++ min 0.0
+++ max 19221.78612507574
+++ avg 492.05084388171355
+++ sum 21158.186286913682
+++ n 43
++ Relative Violation total central avg per timestep
+++ min 0.0
+++ max 0.14029293261614728
+++ avg 0.003593508805265055
+++ sum 0.15452087862639738
+++ n 43
++ Runtime regio central 821.000701744
++ Runtime regio central per time step 
+++ min 3.0255796960000003
+++ max 22.26893016
+++ avg 6.376590012651161
+++ sum 274.19337054399995
+++ n 43
++ Violation total regio central avg per timestep
+++ min 0.0
+++ max 19305.533182857864
+++ avg 697.3560458378763
+++ sum 29986.30997102868
+++ n 43
++ Relative Violation total regio central avg per timestep
+++ min 0.0
+++ max 0.140904173425177
+++ avg 0.005142847667381511
+++ sum 0.22114244969740499
+++ n 43
++ Abstraction error
+++ min 0.0
+++ max 1040.3176974882645
+++ avg 13.838134504819422
+++ sum 10115.676323022997
+++ n 731
++ Relative Abstraction error
+++ min 0.0
+++ max 0.1918611041403708
+++ avg 0.0033268844387229187
+++ sum 2.3055309160349826
+++ n 693
++ Longest serial path : 17.6277048
++ Time per AVPP solving
+++ min 0.041371152
+++ max 16.528936304000002
+++ avg 0.35112818428940595
+++ sum 271.7732146400002
+++ n 774
++ Time spent in abstraction: 547.0688784800001
++ Fixed time abstraction: 546.75598376
++ Variable abstraction runtime total : 0
++ Variable abstraction runtime per step 
+++ min 0.0015217920000000001
+++ max 0.06960528
+++ avg 0.0072766213953488375
+++ sum 0.31289472
+++ n 43
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+initialStatesSeed=1337
+samplingPoints=5
+isoSplit=1
+hierarchyRandomSeed=1337
+avppsPerAvpp=0
+numberOfPlants=2
+experimentHorizon=48
+timeHorizon=5
+avppsRandomSeed=1337
+plantsPerAvpp=15

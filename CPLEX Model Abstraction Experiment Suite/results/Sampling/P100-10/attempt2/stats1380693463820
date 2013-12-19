@@ -1,0 +1,120 @@
+-----------------------
+Minimal residual load: 99749.34746571697
+Maximal residual load: 213439.72727272726
+Maximal production: 234783.7
+Number of plants: 100
+AVPP graph depth: 1
+-----------------------
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Runtime central 
+++ min 4196.350637968
+++ max 4196.350637968
+++ avg 4196.350637968
+++ sum 4196.350637968
+++ n 1
+++ var NaN
+++ stddev NaN
++ Runtime central per time step 
+++ min 9.466680496
+++ max 1807.3605953120002
+++ avg 97.5891164223256
+++ sum 4196.332006160001
+++ n 43
+++ var 145852.56305933493
+++ stddev 381.90648470448224
++ Violation total central avg per timestep
+++ min 0.0
+++ max 42373.697474229455
+++ avg 1762.3588507062677
+++ sum 75781.43058036952
+++ n 43
+++ var 5.967206289259197E7
+++ stddev 7724.769439445553
++ Relative Violation total central avg per timestep
+++ min 0.0
+++ max 0.3092704416627494
+++ avg 0.012979739947348036
+++ sum 0.5581288177359656
+++ n 43
+++ var 0.0031959680876484427
+++ stddev 0.056532893855245396
++ Runtime regio central 
+++ min 11156.084234288
+++ max 11156.084234288
+++ avg 11156.084234288
+++ sum 11156.084234288
+++ n 1
+++ var NaN
+++ stddev NaN
++ Runtime regio central per time step 
+++ min 139.501255648
+++ max 271.07882712
+++ avg 179.9572288926512
+++ sum 7738.160842384002
+++ n 43
+++ var 1217.4576410227803
+++ stddev 34.892085650227045
++ Violation total regio central avg per timestep
+++ min 0.0
+++ max 42373.69747420204
+++ avg 2205.4649917507413
+++ sum 94834.99464528187
+++ n 43
+++ var 5.917748000676472E7
+++ stddev 7692.690037091363
++ Relative Violation total regio central avg per timestep
+++ min 0.0
+++ max 0.3092704439198035
+++ avg 0.01634364028548805
+++ sum 0.7027765322759861
+++ n 43
+++ var 0.003172197418264811
+++ stddev 0.05632226396608016
++ Abstraction error
+++ min 0.0
+++ max 3853.22859589846
+++ avg 120.62712022123635
+++ sum 25934.830847565816
+++ n 215
+++ var 294400.7418299679
+++ stddev 542.5870822549758
++ Relative Abstraction error
+++ min 0.0
+++ max 2.496806004632491
+++ avg 0.02875978244930767
+++ sum 6.183353226601149
+++ n 215
+++ var 0.04634069046528517
+++ stddev 0.21526887946306864
++ Longest serial path : 70.58811371200001
++ Time per AVPP solving
+++ min 4.852077536
+++ max 65.24516323200001
+++ avg 12.640461017302329
+++ sum 3261.238942464001
+++ n 258
+++ var 264.7921073054351
+++ stddev 16.272433969920883
++ Time spent in abstraction: 13438.343915552
++ Fixed time abstraction: 3417.9137268160002
++ Variable abstraction runtime total : 5
++ Variable abstraction runtime per step 
+++ min 0.0063804000000000005
+++ max 0.237831232
+++ avg 0.11271328744186047
+++ sum 4.84667136
+++ n 43
+++ var 0.004060508849041144
+++ stddev 0.06372212213227949
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+samplingPoints=10
+initialStatesSeed=1337
+isoSplit=1
+hierarchyRandomSeed=1337
+avppsPerAvpp=5
+numberOfPlants=2
+experimentHorizon=48
+timeHorizon=5
+avppsRandomSeed=1337
+plantsPerAvpp=20

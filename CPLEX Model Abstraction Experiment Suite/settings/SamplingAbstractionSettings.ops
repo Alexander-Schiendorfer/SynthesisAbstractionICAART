@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cplex">
+    <setting name="tuningtilim" value="30"/>
+    <setting name="threads" value="8"/>
+    <setting name="tilim" value="20.0"/>
+    <setting name="relaxpreind" value="1"/>
+    <setting name="symmetry" value="3"/>
+  </category>
+</settings>

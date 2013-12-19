@@ -1,0 +1,28 @@
+Ideas for evaluations
+
+Parameters:
+N ... Number of PowerPlants
+t ... timeRange (generally anticipated to have one day - makes problems harder)
+th ... time horizon 
+f ... fan-out (equal for all nodes -> logarithmic height or increasing fan out 3,5,8 .... deeper height but smaller problems on high levels)
+h ... height of hierarchy -> closely related to f !
+p ... parallelism, number of threads/workers used for abstraction and solving (maybe)
+z ... steuerbarkeit, avkw von avwks, avkw gemischt (maybe)
+s ... sampling distances
+sd ... random seed -> für alle zufallselemente
+
+Measurements
+rt ... total runtime for the top level RA problem / per timestep  / in total
+at ... total abstraction spent runtime (including sampling)
+lp ... longest serial path runtime
+tv ... total violation -> bottom line comparison; inner node avpp violation, max, min, avg, std
+ae ... abstraction error -> comparing violation of resource assigned to some avpp with its actual capability to meet this demand
+at ... average time per AVPP vs duration centralized model
+
+Comparisons
+
+verschiedene sampling distances -> Laufzeit vs Qualität regio vs. central
+temporal vs. non temporal; 
+verschiedene tiefen
+verschiedene größen
+Bei einem Modell, das in > 15 min Laufzeit zentral gelöst werden kann, schaffen wir in 2 min ein Modell mit x % der Qualität

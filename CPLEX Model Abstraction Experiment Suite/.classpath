@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CSP Model Abstraction"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CSP Model Abstraction Experiment Suite"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/CPLEX Based Model Abstraction"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ASCII"?><project>
+	<version>1.0</version>
+	<configs>
+		<config default="true" name="Default Configuration" category="opl">
+			<ref type="model" name="AVPP_1synthesized.mod">
+			</ref>
+		</config>
+		<config default="false" name="Penalty" category="opl">
+			<ref type="model" name="AVPP_1synthesized_penalty.mod">
+			</ref>
+		</config>
+		<config default="false" name="Violation" category="opl">
+			<ref type="model" name="AVPP_1synthesized_violation.mod">
+			</ref>
+		</config>
+		<config default="false" name="Violation_Penalty" category="opl">
+			<ref type="model" name="AVPP_1synthesized_violation_penalty.mod">
+			</ref>
+		</config>
+	</configs>
+	
+</project>

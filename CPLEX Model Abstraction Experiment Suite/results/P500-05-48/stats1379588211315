@@ -1,0 +1,56 @@
+-----------------------
+Minimal residual load: 191758.916733365
+Maximal residual load: 410318.18181818177
+Maximal production: 451350.0
+Number of plants: 500
+AVPP graph depth: 2
+-----------------------
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Runtime central 40850.04277416
++ Runtime central per time step 950.00
++ Violation total central avg per timestep
+++ min 0.0
+++ max 72861.85574995252
+++ avg 8379.857583661918
++ Relative Violation total central avg per timestep
+++ min 0.0
+++ max 0.27662840864463745
+++ avg 0.032648522305448166
++ Runtime regio central 8073.790175616001
++ Runtime regio central per time step 112.63087182400001
++ Violation total regio central avg per timestep
+++ min 0.49172502211877145
+++ max 72861.85574988814
+++ avg 3433.637239007368
++ Relative Violation total regio central avg per timestep
+++ min 2.074714635014556E-6
+++ max 0.27662840969464453
+++ avg 0.01311818730295111
++ Abstraction error
+++ min 0.0
+++ max 2559.5577165781942
+++ avg 26.050276047847575
++ Relative Abstraction error
+++ min 0.0
+++ max 0.15528453592325991
+++ avg 0.0022438909235412427
++ Longest serial path : 120.53706241600001
++ Time spent in abstraction: 2079.2124709600002
++ Fixed time abstraction: 2062.633981088
++ Variable abstraction runtime total : 17.00
++ Variable abstraction runtime per step 
+++ min 0.042245072
+++ max 0.850292864
+++ avg 0.38554627609302317
++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+initialStatesSeed=1337
+samplingPoints=5
+isoSplit=1
+hierarchyRandomSeed=1337
+avppsPerAvpp=5
+numberOfPlants=3
+experimentHorizon=48
+timeHorizon=5
+avppsRandomSeed=1337
+plantsPerAvpp=20

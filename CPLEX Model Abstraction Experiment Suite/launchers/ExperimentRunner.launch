@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/CPLEX Model Abstraction Experiment Suite/src/de/uniaugsburg/isse/ExperimentRunner.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="LD_LIBRARY_PATH" value="/home/alexander/Programs/CPLEX/opl/bin/x86-64_sles10_4.1"/>
+</mapAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="de.uniaugsburg.isse.ExperimentRunner"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="CPLEX Model Abstraction Experiment Suite"/>
+</launchConfiguration>

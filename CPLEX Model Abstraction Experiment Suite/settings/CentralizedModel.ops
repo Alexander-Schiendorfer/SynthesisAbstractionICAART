@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings version="2">
+  <category name="cplex">
+    <setting name="threads" value="8"/>
+    <setting name="auxrootthreads" value="4"/>
+  </category>
+</settings>

@@ -1,0 +1,75 @@
+VIOLATION: 212.0919642857143
+Penalties: 400
+ execute {
+ 	writeln('Violation: ', violation);
+ 	writeln('Penaties: ', penaltySum);  
+ }   
+ 
+ // solution (optimal) with objective 293.296682422977
+Violation: 293.2966824229691
+Penaties: 294
+
+octave:1> a =  293.2966824229691
+a =  293.30
+octave:2> a*1.2
+ans =  351.96
+octave:3> a*1.15
+ans =  337.29
+
+execute {
+   function cut(r) {
+	  return Math.round(r*100)/100;
+   }
+
+ 	writeln('Violation: ', violation);
+ 	writeln('Penaties: ', penaltySum);  
+ 	for(var c in softConstraints) {
+ 	  	write(c, " & ");
+	 	for(var t in TIMERANGE) {
+	 	    if(t > 0)
+	 	    	write(" & ");
+	    	write(penalties[c][t]);
+	    } 
+	    writeln("\\\\");
+  	}    	  
+ 	writeln('------------------');
+ 	writeln('Production:');
+ 	for(var p in plants) {
+ 	  write(p, " & ");  
+ 	  for(t in TIMERANGE) {
+ 	    if(t > 0)
+ 	    	write(" & ");
+    	write(cut(production[p][t]));
+	  } 
+	  writeln("\\\\");
+    } 	  
+    
+    write("total & ");
+    for(t in TIMERANGE) {
+    	if(t > 0) 
+		   write(" & ");
+	    write(cut(totalProduction[t]));
+    }      
+    writeln("\\\\");
+    
+    write("demand & ");
+    for(t in TIMERANGE) {
+    	if(t > 0) 
+		   write(" & ");
+	    write(cut(loadCurve[t]));
+    }      
+    writeln("\\\\");
+    
+    writeln('------------------');
+ 	writeln('Running:');
+ 	for(p in plants) {
+ 	  write(p, " & ");  
+ 	  for( t in TIMERANGE) {
+ 	    if(t > 0)
+ 	    	write(" & ");
+	 	write(running[p][t]);
+	  } 
+	  writeln("\\\\");
+    } 	  
+   
+ }   
