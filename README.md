@@ -1,7 +1,4 @@
-++++++++++++++++++++++++++++++++++
-Synthesis and Abstraction of
- Constraint Models for Hierarchical
-Resource Allocation Problems
+Synthesis and Abstraction of Constraint Models for Hierarchical Resource Allocation Problems
 ==========================
 
 This readme file explains all necessary steps to execute
